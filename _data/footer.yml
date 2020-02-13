@@ -1,10 +1,12 @@
 - links:
   # - name: About
   #   link: /about/
+  # - name: How it works
+  #   link: /how/
   # - name: Contact
   #   link: /contact/
-  - name: System Status
-    link: /status/
+  # - name: System Status
+  #   link: /status/
   # - name: Blog
   #   link: /blog/
   #   new_window: true
