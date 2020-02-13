@@ -93,9 +93,10 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - "BotRegistry.github.*"
+  - ".editorconfig"
   - docker-compose.yml
-  - jekyll.sh
-  - jekyllBuild.sh
+  - Makefile
   - jekyllServe.sh
 
 # -----------
