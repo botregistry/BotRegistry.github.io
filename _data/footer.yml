@@ -15,7 +15,7 @@
   - name: Pricing
     link: /pricing/
   - name: Sign Up
-    link: /plan/?basic
+    link: /plan/basic/
     #new_window: true
   #- name: Docs
   #  link: /

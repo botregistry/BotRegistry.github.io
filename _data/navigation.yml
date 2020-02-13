@@ -19,6 +19,6 @@
 #   new_window: false
 #   highlight: false
 - name: Sign Up
-  link: /plan/?basic
+  link: /plan/basic/
   new_window: false
   highlight: true
