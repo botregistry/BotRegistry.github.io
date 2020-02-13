@@ -1,24 +1,32 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Bot Registry
+url: "https://BotRegistry.net/"
 baseurl:
 google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+#google_maps_javascript_api_key:
+#disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Product marketing template for Jekyll.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Alister Bulman
+  email: alister@BotRegistry.net
+  twitter: BotRegistry
 social:
-  name: Hydra Template
+  name: ISAGN
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    #- https://github.com/CloudCannon/hydra-jekyll-template
+    - https://twitter.com/BotRegistry
+
+# webmaster_verifications:
+#   google: 1234
+#   bing: 1234
+#   alexa: 1234
+#   yandex: 1234
+#   baidu: 1234
 
 # -----
 # Build
@@ -85,19 +93,23 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - docker-compose.yml
+  - jekyll.sh
+  - jekyllBuild.sh
+  - jekyllServe.sh
 
 # -----------
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
+  #- Facebook
+  #- Google Plus
+  #- Instagram
+  #- LinkedIn
+  #- Pinterest
+  #- Tumblr
   - Twitter
-  - YouTube
+  #- YouTube
   - RSS
 
 _comments:

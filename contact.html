@@ -1,20 +1,20 @@
 ---
 title: Contact
 heading: Get in touch today
-description: We'd love to help you improve your sales.
+description: We just love scanning for <strike>life-forms</strike> <strong>Bots</strong>!
 
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
-  zoom: 13
+  latitude: 51.564358
+  longitude: -0.443600
+  address: "Bulman Development Ltd, Ickenham, London, UK"
+  zoom: 16
 ---
 <div class="map" id="map"></div>
 
 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="support@example.com" />
+		<input type="hidden" name="_to" value="support@botregistry.net" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<label for="name">Full Name</label>
@@ -30,11 +30,11 @@ map:
 	</form>
 
 	<div class="contact-details">
-		<h3 class="editable">Address</h3>
+		<h3>Address</h3>
 		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
-		<h3 class="editable">Email</h3>
-		<p><a href="mailto:support@example.com">support@example.com</a></p>
+		<h3>Email</h3>
+		<p><a href="mailto:support@example.com">support@botregistry.net</a></p>
 	</div>
 </div>
 
@@ -175,4 +175,5 @@ map:
 		});
 	}
 </script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>

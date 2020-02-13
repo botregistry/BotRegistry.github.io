@@ -1,71 +1,79 @@
 ---
 title: Pricing
-heading: Find the perfect plan for your business
+heading: Find the perfect plan for your site
 description: All plans include our award winning sales optimization solution to track your sales in real time.
 pricing_table:
   - name: Basic
     color: "#8e8e8e"
     features:
-      - text: $25 per month
+      - text: free account
         highlight: true
-      - text: Up to 5 users
+      - text: "'Good', or 'Bad-bot'"
         highlight: false
-      - text: Basic lead scoring
+      - text: "1,000 checks per month"
         highlight: false
-      - text: CRM
+    call_to_action:
+      link: https://BotRegistry.net/plan/?basic
+      text: Get started
+  - name: Starter
+    color: "#8e8e8e"
+    features:
+      - text: £19 per month
+        highlight: true
+      - text: "'Good' or 'Bad-bot' & scoring"
+        highlight: false
+      - text: "50,000 checks per month"
         highlight: false
       - text: Basic reporting
         highlight: false
-      - text: Sales map
-        highlight: false
     call_to_action:
-      link: http://mysite.com?plan=basic
+      link: https://BotRegistry.net/plan/?starter
       text: Get started
-  - name: Pro
-    color: "#4a4a4a"
+  - name: Standard
+    color: "#4a4aff"
     features:
-      - text: $99 per month
+      - text: £49 per month (£500/year)
         highlight: true
-      - text: Everything in Basic
+      - text: "Bot scoring, & category"
         highlight: false
-      - text: Up to 25 users
-        highlight: false
-      - text: Advanced lead scoring
-        highlight: false
-      - text: Pipeline management
+      - text: "500,000 checks per month"
         highlight: false
       - text: Advanced reporting
         highlight: false
+      - text: Custom API endpoint
+        highlight: false
+      - text: Firewall configurations
+        highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
+      link: https://BotRegistry.createstandard
+      text: Get serious
   - name: Professional
-    color: "#000000"
+    color: "#4a4a4a"
     features:
-      - text: $299 per month
+      - text: £299 per month
         highlight: true
-      - text: Everything in Basic and Pro
+      - text: "Bot scoring, category & source"
         highlight: false
-      - text: Up to 100 users
+      - text: "7.5 million checks per month"
         highlight: false
-      - text: Campaign builder
+      - text: "Everything in the Pro plan, plus:"
         highlight: false
-      - text: Machine learning
+      - text: "Assisted setup & configuration"
         highlight: false
-      - text: Calendar
+      - text: Customisable blocking sources
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=professional
+      link: https://BotRegistry.net/plan/?professional
       text: Get started
 faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
+  # - question: What types of payment do you accept?
+  #   answer: Credit cards including MasterCard, Visa or American Express.
   - question: Can I change my plan at a later time?
     answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
+  # - question: Do you offer pricing for nonprofit organizations?
+  #   answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
   - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: Contact us for any further questions at <a href="mailto:alister@BotRegistry.com">alister@BotRegistry.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}

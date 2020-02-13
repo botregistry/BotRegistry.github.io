@@ -3,5 +3,7 @@ name:
 position:
 image_path:
 twitter:
+linkedin:
+blog:
 blurb:
 ---
