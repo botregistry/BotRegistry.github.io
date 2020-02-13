@@ -10,7 +10,7 @@ google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Bot Registry - Detect, and block the Bad Bots
 author:
   name: Alister Bulman
   email: alister@BotRegistry.net

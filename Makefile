@@ -2,7 +2,7 @@
 clean:
 	rm -rf .jekyll-cache/ _site/
 tidy:
-	chmod -x ./*.yml */*yml ./*html */*.html ./Gemfile* 
+	chmod -x ./*.yml */*yml  ./*.md */*.md  ./*html */*.html  ./Gemfile* 
 
 serve:
 	docker-compose up
