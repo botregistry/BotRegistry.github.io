@@ -1,3 +1,11 @@
+- name: How it works
+  link: "/#how-it-works"
+  new_window: false
+  highlight: false
+- name: Pre-emptive blocking
+  link: "/#pre-emptive-blocking"
+  new_window: false
+  highlight: false
 - name: Pricing
   link: /pricing/
   new_window: false
